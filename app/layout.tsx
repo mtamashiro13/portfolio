@@ -1,17 +1,17 @@
 import React from "react";
 
 import type { Metadata } from "next";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ThemeProvider from "./providers/ThemeProvider";
 import "./globals.css";
 import SideCard from "./components/SideCard";
 import { Container } from "@mui/material";
 import { poppins } from "./fonts";
+import Header from "./components/Header";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "Hello World",
+  description: "Matheus Tamashiro's Portfolio",
 };
 
 export default function Layout({

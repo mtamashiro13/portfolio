@@ -1,7 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import StatsSection from "./components/StatsSection";
-
 export default function Home() {
   return (
     <Box sx={{ padding: 2, backgroundColor: "#ddd" }}>
