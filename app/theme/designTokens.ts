@@ -1,10 +1,5 @@
 import { poppins } from "../fonts";
 
-/**
- * Design tokens for the portfolio theme.
- * Customize these values to style MUI components consistently.
- */
-
 export const designTokens = {
   palette: {
     primary: {
@@ -44,13 +39,16 @@ export const designTokens = {
       contrastText: "#fff",
     },
     background: {
-      default: "#ffffff",
+      default: "#151312",
       paper: "#f3f3f3",
+      alt: "#1c1a19",
     },
     text: {
-      primary: "rgba(0, 0, 0, 0.87)",
-      secondary: "rgba(0, 0, 0, 0.6)",
+      primary: "#998f8f",
+      secondary: "rgba(182, 180, 189, 0.2)",
+      highlight: "#fff",
       disabled: "rgba(0, 0, 0, 0.38)",
+      opposite: "#000",
     },
     divider: "rgba(0, 0, 0, 0.12)",
   },
@@ -68,13 +66,11 @@ export const designTokens = {
     h4: { fontSize: "1.125rem", fontWeight: 600, lineHeight: 1.5 },
     h5: { fontSize: "1rem", fontWeight: 600, lineHeight: 1.5 },
     h6: { fontSize: "0.875rem", fontWeight: 600, lineHeight: 1.5 },
-    subtitle1: { fontSize: "1rem", fontWeight: 400, lineHeight: 1.75 },
+    subtitle1: { fontSize: "1rem", fontWeight: 400, lineHeight: 1.75},
     subtitle2: { fontSize: "0.875rem", fontWeight: 500, lineHeight: 1.57 },
     body1: { fontSize: "1rem", fontWeight: 400, lineHeight: 1.5 },
     body2: { fontSize: "0.875rem", fontWeight: 400, lineHeight: 1.43 },
     button: { fontSize: "0.875rem", fontWeight: 500, lineHeight: 1.75 },
-    caption: { fontSize: "0.75rem", fontWeight: 400, lineHeight: 1.66 },
-    overline: { fontSize: "0.75rem", fontWeight: 500, lineHeight: 2.66, letterSpacing: "0.08333em" },
   },
 
   shape: {

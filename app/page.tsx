@@ -1,11 +1,14 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import StatsSection from "./components/StatsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import SkillsSection from "./components/SkillsSection";
+import ToolsSection from "./components/ToolsSection";
 export default function Home() {
   return (
-    <Box sx={{ padding: 2, backgroundColor: "#ddd" }}>
+    <Box id="home" sx={{ padding: 2 }}>
       <Typography variant="h1">
-        SOFTWARE
+        <span style={{ color: "#fff" }}>FRONTEND</span>
         <br /> ENGINEER
       </Typography>
       <Typography variant="body1">
@@ -18,6 +21,9 @@ export default function Home() {
         experiência do usuário.
       </Typography>
       <StatsSection />
+      <ExperienceSection />
+      <SkillsSection />
+      <ToolsSection />
     </Box>
   );
 }

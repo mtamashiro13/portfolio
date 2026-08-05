@@ -1,10 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 import { designTokens } from "./designTokens";
 
-/**
- * MUI theme built from design tokens.
- * Edit app/theme/designTokens.ts to customize component styles.
- */
 export const theme = createTheme({
   palette: designTokens.palette,
   typography: {
@@ -25,8 +21,6 @@ export const theme = createTheme({
     body1: designTokens.typography.body1,
     body2: designTokens.typography.body2,
     button: designTokens.typography.button,
-    caption: designTokens.typography.caption,
-    overline: designTokens.typography.overline,
   },
   shape: designTokens.shape,
   spacing: designTokens.spacing,
