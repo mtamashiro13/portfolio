@@ -1,8 +1,4 @@
-import {
-  Box,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import NorthEastOutlinedIcon from "@mui/icons-material/NorthEastOutlined";
 import React from "react";
 
@@ -21,7 +17,7 @@ const experiences = [
       "Integração com APIs RESTful e microsserviços, incluindo a implementação de agentes de IA (Claude e Gemini).",
       "Monitoramento de aplicações em produção via Datadog, com atuação em deploys, troubleshooting e resolução de incidentes seguindo fluxo Kanban.",
     ],
-    href: "https://www.bancobari.com.br",
+    href: null,
   },
   {
     role: "Front-end Jr.",
@@ -32,7 +28,7 @@ const experiences = [
       "Suporte a provedores de servidor, CPanel e FTP, além de orçamentos e kick-offs com contato direto com clientes do início ao fim do projeto.",
       "Atendimento a clientes como NewHotel, Grupo Condor (Zonta), Tintas Alessi, Viação Sorriso, Grupo Noster, NHS e Trisoft.",
     ],
-    href: "https://www.inunda.com.br",
+    href: null,
   },
   {
     role: "Freelancer",
@@ -58,11 +54,11 @@ export default function ExperienceSection() {
         }}
       >
         <Box component="span" sx={{ color: "text.highlight" }}>
-          {yearsOfExperience} Years of
+          {yearsOfExperience} Anos de
         </Box>
         <br />
         <Box component="span" sx={{ color: "text.secondary" }}>
-          Experience
+          Experiência
         </Box>
       </Typography>
 

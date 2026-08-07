@@ -8,11 +8,11 @@ const PROJECTS_COMPLETED = 40;
 const stats = [
   {
     value: new Date().getFullYear() - 2020,
-    label: "Years of experience",
+    label: "ANOS DE EXPERIÊNCIA",
   },
   {
     value: PROJECTS_COMPLETED,
-    label: "Projects completed",
+    label: "PROJETOS ENTREGADOS",
   },
 ] as const;
 

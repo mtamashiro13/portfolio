@@ -50,7 +50,17 @@ export default function AnimatedCounter({
   }, [value, duration]);
 
   return (
-    <Typography component="span" ref={ref} {...typographyProps}>
+    <Typography
+      component="span"
+      ref={ref}
+      {...typographyProps}
+      sx={{
+        fontWeight: 600,
+        lineHeight: 1,
+        fontSize: "48px",
+        color: "text.highlight",
+      }}
+    >
       {prefix}
       {count}
     </Typography>
