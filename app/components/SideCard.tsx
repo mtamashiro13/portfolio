@@ -2,6 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Image from "next/image";
 import React from "react";
 
 export default function SideCard() {
@@ -28,11 +29,15 @@ export default function SideCard() {
           maxHeight: "calc(100vh - 64px)",
         }}
       >
-        <img
-          src="https://framerusercontent.com/images/w2hyXovpoCcfHZkjR4Hmr53RA5o.jpg?scale-down-to=1024&width=3456&height=5184"
-          alt="ProfileImage"
+        <Image
+          src="/images/profile.png"
+          alt="Matheus Tamashiro"
+          width={512}
+          height={512}
+          priority
           style={{
             width: "100%",
+            height: "auto",
             objectFit: "cover",
             aspectRatio: 1,
             borderRadius: "8px",
